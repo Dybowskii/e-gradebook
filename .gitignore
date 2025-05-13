@@ -1,0 +1,34 @@
+# >>> Główne pliki globalne
+.env
+.idea/
+
+# >>> Backend (Spring Boot - Java)
+backend/.idea/
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.iml
+backend/*.log
+
+# >>> Frontend (React - Node.js)
+frontend/.idea/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/yarn-error.log
+frontend/coverage/
+frontend/*.log
+
+# >>> Systemowe
+.DS_Store
+Thumbs.db
+
+# >>> PyCharm / IntelliJ dodatkowo (jeśli używasz JetBrains)
+*.iml
+*.ipr
+*.iws
